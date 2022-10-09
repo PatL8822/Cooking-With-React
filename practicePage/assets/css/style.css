@@ -1,0 +1,18 @@
+h1 {
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+table,
+th {
+    margin: 0 auto;
+    width: 300px;
+    border: 1px solid black;
+}
