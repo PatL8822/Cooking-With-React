@@ -16,3 +16,19 @@ th {
     width: 300px;
     border: 1px solid black;
 }
+
+table {
+    border-collapse: collapse;
+}
+
+.lastTh {
+    border: none;
+}
+
+.hide {
+    display: none;
+}
+
+td {
+    padding: 5px;
+}

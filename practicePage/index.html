@@ -30,24 +30,20 @@
         <legend>Advanced Local Storage</legend>
         <form action="none">
             <label for="make">Vehical Make:</label>
-            <input type="text">
+            <input id="makeIn2" type="text">
             <label for="model">Vehical Model</label>
-            <input type="text">
+            <input id="modleIn2" type="text">
             <label for="color">Vehial Color</label>
-            <input type="text">
+            <input id="colorIn2" type="text">
             <input id="sub2Btn" type="submit">
         </form>
         <h2>Display Vehical Input</h2>
-        <table>
+        <table id="table">
             <tr>
                 <th>Make</th>
                 <th>Model</th>
-                <th>Color</th>
-            </tr>
-            <tr>
-                <td class="tdCarMake">Toyota</td>
-                <td class="tdCarModle">Tacoma</td>
-                <td class="tdCarColor">White</td>
+                <th colspan="2">Color</th>
+                <th class="lastTh hide"></th>
             </tr>
         </table>
     </fieldset>
